@@ -7,5 +7,6 @@ The topic server manage the exchange of message between processes subscribed to 
 This server is very simple. The server accept WEB Socket connection from many client, each client can create dynamic topic, which mean that when topic is empty (all client have been unscribed from it, or when all client have disconencted), this topic is delete automatically by server. Each client can send messages to the subscribed topics, or to other topic if the name is known (writer process). 
 Eahc client can delete the topic which is subscribed to, as well as can unscribed from it.
 
-This is useful in distribuited sysystem whhere automated processes need to intercomunicate, as a network sensors for example.
-The the processes that control the sensors send mesur to topic (writer), and the main control process can collect and process the data sent to topic by each sensor.
+This is useful in an automated distribuited system where processes need to intercomunicate, as a sensors network fro example.
+The the processes that control the sensors send measures to the subscribed topic (writer), and the main control process can collect and process the data sent to topic by each sensor.
+
