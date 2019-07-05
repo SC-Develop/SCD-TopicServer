@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/add16x16.png</file>
+        <file>images/add32.png</file>
+        <file>images/add32x32.png</file>
+        <file>images/addgroup.png</file>
+        <file>images/aggiorna.png</file>
+        <file>images/green_circle.png</file>
+        <file>images/loading.gif</file>
+        <file>images/ok.png</file>
+        <file>images/red_circle.png</file>
+        <file>images/right.png</file>
+        <file>images/rightarrow.gif</file>
+        <file>images/sendmail.png</file>
+        <file>images/signature1.png</file>
+        <file>images/signature2.png</file>
+        <file>images/success.gif</file>
+        <file>images/yellow_circle.png</file>
+        <file>images/deleteuser.png</file>
+        <file>images/deletegroup.png</file>
+        <file>images/del16.png</file>
+        <file>images/button.gif</file>
+    </qresource>
+</RCC>
