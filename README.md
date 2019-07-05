@@ -1,2 +1,2 @@
 # SCD-TopicServer
-Web Socket Topic Server: events notification to processes subscribed to topic.
+Web Socket Topic Server: events notification to client processes subscribed to topic.
