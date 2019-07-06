@@ -65,4 +65,4 @@ Binary executable <b>topic-client-gui</b> will be generated under the <b>bin</b>
 
 ### Test Client GUI
 
-<img src="images/topicclientgui.png"/>
+<img src="images/topic-client-gui.png"/>
