@@ -1,15 +1,16 @@
 /**
- * @class  SCDTopicServer https://github.com/sc-develop/
+ * @class SCDTopicServer https://github.com/sc-develop/
  *
- * @copyright (c) 2019
+ * @brief SCD Topic Server
  *
- * @brief SCD Image Server. SCD Image sever is a TCP server for fast downoad/upload image or binary files.
+ *        SCD Topic Sever is a Web Socket Server which allow you to notify events to all client processes
+ *        subscribed to the same topic.
  *
  * @author Ing. Salvatore Cerami - dev.salvatore.cerami@gmail.com
  *
- * @copyright (c) 2019 Ing. Salvatore Cerami - dev.salvatore.cerami@gmail.com - https://github.com/sc-develop/
+ * @copyright (c) 2019 (MIT) Ing. Salvatore Cerami - dev.salvatore.cerami@gmail.com - https://github.com/sc-develop/
  *
-*/
+ */
 
 #include "scdtopicserver.h"
 

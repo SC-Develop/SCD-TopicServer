@@ -1,7 +1,8 @@
 /**
- * @brief SCD Image Server
+ * @brief SCD Topic Server
  *
- *        SCD Image sever is a TCP server for fast downoad/upload image or binary files
+ *        SCD Topic Sever is a Web Socket Server which allow you to notify events to all client processes
+ *        subscribed to the same topic.
  *
  * @author Ing. Salvatore Cerami - dev.salvatore.cerami@gmail.com
  *
