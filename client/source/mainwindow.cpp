@@ -1,7 +1,7 @@
 /**
  * @class MainWindow -
  *
- * @brief SCD Topic Client - Gui Client which allo you to connec to SCD Topic Server and create/subscribe topics
+ * @brief SCD Topic Client - Gui Client which allow you to connect to SCD Topic Server and create/subscribe topics
  *
  *        SCD Topic Sever is a Web Socket Server which allow you to notify events to all client processes
  *        subscribed to the same topic.
@@ -14,7 +14,10 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 
-
+/**
+ * @brief MainWindow::MainWindow
+ * @param parent
+ */
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)

@@ -30,11 +30,11 @@ DESTDIR +=../bin/
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    ../../scdtopicclient/source/scdtopicclient.cpp
+    scdtopicclient.cpp
 
 HEADERS += \
         mainwindow.h \
-    ../../scdtopicclient/source/scdtopicclient.h
+    scdtopicclient.h
 
 FORMS += \
         mainwindow.ui
