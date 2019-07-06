@@ -1,3 +1,16 @@
+/**
+ * @class MainWindow -
+ *
+ * @brief SCD Topic Client - Gui Client which allo you to connec to SCD Topic Server and create/subscribe topics
+ *
+ *        SCD Topic Sever is a Web Socket Server which allow you to notify events to all client processes
+ *        subscribed to the same topic.
+ *
+ * @author Ing. Salvatore Cerami - dev.salvatore.cerami@gmail.com
+ *
+ * @copyright (c) 2019 (MIT) Ing. Salvatore Cerami - dev.salvatore.cerami@gmail.com - https://github.com/sc-develop/
+ *
+ */
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 
