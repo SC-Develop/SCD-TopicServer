@@ -65,4 +65,6 @@ Binary executable <b>topic-client-gui</b> will be generated under the <b>bin</b>
 
 ### Test Client GUI
 
+The topic client GUI application has been compiled and tested on Ubuntu 16.04
+
 <img src="images/topic-client-gui.png"/>
