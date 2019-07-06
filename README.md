@@ -12,5 +12,4 @@ Also, the server can manage the static topic. At this stage, static topic can be
 
 ### When is it useful?
 
-This topic server is suitable in an automated distribuited multiprocess/multithreading system where each processes/thread need to notifyn some data to each other, where each process needs to know what the other processes are doing, as in a intelligent sensors network for example.
-You can use this topic server also for use as very simple chat. Another use can be in dataabse WEB application when a database table updating can be notified to each web client by topic server.
+This topic server is suitable in an automated distribuited multiprocess/multithreading system where each processes/thread need to notifyn some data to each other, where each process needs to know what the other processes are doing, as in a intelligent sensors network for example. Also, you can use this topic server for  as very simple chat. Another use can be in a WEB database application when a database table updating can be notified to each web client thru topic server.
