@@ -60,5 +60,5 @@ https://github.com/sc-develop - git.sc.develop@gmail.com
 
 ### Build and Run the SCD Topic Client GUI Application
 
-Run QT Creator, load project found into client 'source' subdir and build.<br>
+Run QT Creator, load project found into client 'source' subdir, build and finally run.<br>
 Binary executable <b>topic-client-gui</b> will be generated under the <b>bin</b> folder<br>
