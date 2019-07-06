@@ -62,3 +62,7 @@ https://github.com/sc-develop - git.sc.develop@gmail.com
 
 Run QT Creator, load project found into client 'source' subdir, build and finally run.<br>
 Binary executable <b>topic-client-gui</b> will be generated under the <b>bin</b> folder<br>
+
+### Test Client GUI
+
+<img src="images/topicserver.png"/>
