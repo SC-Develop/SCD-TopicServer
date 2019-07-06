@@ -12,6 +12,4 @@ Also, the server can manage the static topic. At this stage, static topic can be
 
 ### When is it useful?
 
-This topic swerver is suitable in an automated distribuited system where processes need to intercomunicate, as a sensors network for example.
-The the processes that control the sensors send measures to the subscribed topic (writer), and the main control process can collect and process the data sent to topic by each sensor (reader).
-
+This topic server is suitable, for example, in an automated distribuited system where many processes need to intercomunicate, where each process needs to know what the other processes are doing as a intelligent sensors network.
