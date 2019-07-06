@@ -5,7 +5,7 @@
  *
  * @author Ing. Salvatore Cerami - dev.salvatore.cerami@gmail.com
  *
- * @copyright (c) 2019 Ing. Salvatore Cerami - dev.salvatore.cerami@gmail.com - https://github.com/sc-develop/
+ * @copyright (c) 2019 (MIT) Ing. Salvatore Cerami - dev.salvatore.cerami@gmail.com - https://github.com/sc-develop/
  *
  */
 #include <QCoreApplication>
