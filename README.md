@@ -10,6 +10,12 @@ Note the each client process can be reader or writer or both, this depend from i
 The role of client is not established from server but from architecture of your own application.
 Also, the server can manage the static topic. At this stage, static topic can be only added manually from admin to the topic file, and can not be deleted automatically by server but only manually.
 
+## Working Diagrams
+
+<img src="images/topicserver.png"/>
+
+<img src="images/topicservermess.png"/>
+
 ### When is it useful?
 
 This topic server is suitable in an automated distribuited multiprocess/multithreading system where each processes/thread need to notifyn some data to each other, where each process needs to know what the other processes are doing, as in a intelligent sensors network for example. Also, you can use this topic server for  as very simple chat. Another use can be in a WEB database application when a database table updating can be notified to each web client thru topic server.
