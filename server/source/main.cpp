@@ -28,11 +28,13 @@ int main(int argc, char *argv[])
    echo "Copyright (c) 2019 (MIT) Ing. Salvatore Cerami - dev.salvatore.cerami@gmail.com\n";
    echo "https://github.com/sc-develop - git.sc.develop@gmail.com\n\n";
 
-   QSettings cfg("config.cfg");
+   QString appPath = a.applicationDirPath();
 
-   int port = cfg.value("serverport",22345).toInt();
+   QSettings cfg(appPath + "/config.cfg",QSettings::IniFormat);
 
-   cfg.setValue("serverport",port);
+   int port = cfg.value("port",22345).toInt();
+
+   cfg.setValue("port",port);
 
    cfg.sync();
 
