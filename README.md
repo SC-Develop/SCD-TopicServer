@@ -1,4 +1,4 @@
-# SCD-TopicServer
+# SCD-TopicServer - Qt C++ Client/Server Class
 Web Socket Topic Server: events notification to client processes subscribed to topic.
 
 ## Description
