@@ -8,7 +8,7 @@ This server is very simple. The server accept WEB Socket connection from many cl
 Each client can delete the topic which is subscribed to, as well as can unscribed from it.
 Note the each client process can be reader or writer or both, this depend from implementation of yur own system. 
 The role of client is not established from server but from architecture of your own application.
-Also, the server can manage the static topic. At thi stage, static topic can be only added manually from admin to the topic file, and can not be deleted automatically by server but only manually.
+Also, the server can manage the static topic. At this stage, static topic can be only added manually from admin to the topic file, and can not be deleted automatically by server but only manually.
 
 ### When is it useful?
 
